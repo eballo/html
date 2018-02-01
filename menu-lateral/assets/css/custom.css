@@ -1,0 +1,19 @@
+.side-collapse{
+  position: fixed;
+  overflow: hidden;
+  background-color: red;
+  display: block;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  width: 0px;
+  transition: width 1.4s;
+}
+
+.side-collapse.out {
+  width: 0px;
+}
+
+.side-collapse.in {
+  width: 200px;
+}
